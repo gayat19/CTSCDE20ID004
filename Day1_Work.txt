@@ -1,0 +1,112 @@
+Travel booking for CTS Employees
+
+Employees
+  id
+  name
+  address
+  location
+  age
+  phone
+  email
+  bus_id
+
+Bus
+  id
+  capacity
+  occupancy_status
+
+Driver
+  id
+  name
+  phone
+
+Trip
+  Trip_Id
+  bus_id
+  driver_id
+  Stop1
+  Stop1_time
+  Stop2
+  Stop2_time
+  Stop3
+  Stop3_time   
+
+data source = DESKTOP-1C1EU5R;Integrated Security = true;Initial Catalog = dbTransportCTS
+
+create database dbTransportCTS
+
+use dbtransportCTS
+
+create table employees(
+id int identity(1,1) primary key,
+name varchar(20) not null,
+address varchar(1000),
+location varchar(30),
+age int check(age>18),
+phone varchar(20),
+email varchar(20)
+)
+
+sp_help employees
+
+--Driver
+--  id
+--  name
+--  phone
+
+create table drivers
+(id int identity(101,1) primary key,
+name varchar(20),
+phone varchar(20))
+
+--Bus
+--  bus_number
+--  capacity
+--  occupancy_status
+
+create table bus(
+-- bus_number varchar(20) constraint pk_busno primary key
+bus_number varchar(20) primary key,
+capacity int check(capacity<50),
+occupancy int default 0)
+
+alter table employees
+add bus_number varchar(20) constraint fk_busno foreign key references bus(bus_number)
+
+
+create table Trips(
+trip_id int identity(1000,1) primary key,
+bus_id varchar(20) constraint fk_tripbusno foreign key references bus(bus_number),
+driver_id int references drivers(id),
+stop1 varchar(30),
+sop1_time time,
+stop2 varchar(30),
+sop2_time time,
+stop3 varchar(30),
+sop3_time time)
+
+
+create proc proc_InsertEmployee(
+@ename varchar(20), 
+@eAddress varchar(1000),
+@elocation varchar(30),
+@eage int,
+@ephone varchar(20),
+@eemail varchar(50))
+as
+insert into employees(name,address,location,age,phone,email)
+values(@ename,@eAddress,@elocation,@eage,@ephone,@eemail)
+
+proc_InsertEmployee 'Ramu','12, ABC Street','xyz',30,'1234567890','ramu@gmail.com'
+
+select * from employees
+
+
+
+
+
+
+
+
+
+
