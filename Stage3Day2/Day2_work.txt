@@ -1,0 +1,73 @@
+login -> employeeid - username
+employeename - password
+CRUD
+C - Create
+R - Read
+U - Update
+D - Delete
+WinForms- ADO.NET -SQL
+MVC - EFCore - SQL
+MVC - WebAPI - EFCore - SQL
+MVC - WebAPI - EFCore - Azure(SQL)
+
+
+use dbTransportCTS
+
+sp_help bus
+
+
+insert into bus values('TN22AB1234',30,default)
+
+insert into bus(bus_number,capacity) values('TN02BF1234',30)
+
+select * from bus
+
+create proc proc_allocateBusToEmployee(@eid int,@busno varchar(10))
+as
+begin
+   begin tran
+      update employees set bus_number = @busno where id = @eid;
+	  declare 
+	  @bcap int,
+	  @bocc int;
+	  set @bcap = (select capacity from bus where bus_number = @busno);
+	  set @bocc = (select occupancy  from bus where bus_number = @busno);
+	  set @bocc = @bocc +1;
+	  update bus set occupancy = @bocc where bus_number = @busno;
+	  if(@bocc > @bcap)
+		rollback
+	  else
+	    commit
+end
+
+select * from employees
+select * from bus
+select * from drivers
+select * from Trips
+
+exec proc_allocateBusToEmployee 2, 'TN22AB1234'
+
+update bus set occupancy = 30 where bus_number = 'TN22AB1234'
+
+update employees set bus_number = null 
+
+create proc proc_GetBusForEmployee(@eid int)
+as
+begin
+	select Bus_number from bus b join trips t on b.bus_number = t.bus_id
+	where b.capacity>b.occupancy 
+	and
+	(stop1 =   
+	(select location from employees where id = @eid)
+	or
+	stop2=
+	(select location from employees where id = @eid)
+	or
+	stop3=
+	(select location from employees where id = @eid))
+end
+
+
+exec proc_GetBusForEmployee 2
+
+

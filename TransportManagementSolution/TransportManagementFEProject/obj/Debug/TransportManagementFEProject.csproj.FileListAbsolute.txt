@@ -11,3 +11,6 @@ D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\TransportManagementSolution\T
 D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\TransportManagementSolution\TransportManagementFEProject\obj\Debug\TransportManagementFEProject.csproj.CopyComplete
 D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\TransportManagementSolution\TransportManagementFEProject\obj\Debug\TransportManagementFEProject.exe
 D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\TransportManagementSolution\TransportManagementFEProject\obj\Debug\TransportManagementFEProject.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\TransportManagementSolution\TransportManagementFEProject\obj\Debug\TransportManagementFEProject.frmAllocateBus.resources
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\TransportManagementSolution\TransportManagementFEProject\obj\Debug\TransportManagementFEProject.Home.resources
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\TransportManagementSolution\TransportManagementFEProject\obj\Debug\TransportManagementFEProject.Form2.resources
