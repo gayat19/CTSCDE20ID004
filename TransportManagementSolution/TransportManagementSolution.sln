@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportManagementFEProjec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranportManagementBLLibrary", "TranportManagementBLLibrary\TranportManagementBLLibrary.csproj", "{3BB94948-37D5-4164-8F54-288A02AF546D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTransportTest", "NUnitTransportTest\NUnitTransportTest.csproj", "{F50ABFF2-5A4A-4C21-A6F9-7F84E79ACBA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3BB94948-37D5-4164-8F54-288A02AF546D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB94948-37D5-4164-8F54-288A02AF546D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB94948-37D5-4164-8F54-288A02AF546D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50ABFF2-5A4A-4C21-A6F9-7F84E79ACBA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50ABFF2-5A4A-4C21-A6F9-7F84E79ACBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50ABFF2-5A4A-4C21-A6F9-7F84E79ACBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50ABFF2-5A4A-4C21-A6F9-7F84E79ACBA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

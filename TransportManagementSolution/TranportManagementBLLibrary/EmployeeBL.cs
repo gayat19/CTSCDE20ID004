@@ -11,11 +11,25 @@ namespace TranportManagementBLLibrary
 {
     public class EmployeeBL
     {
-        SqlConnection conn;
+        SqlConnection conn=null;
         SqlCommand cmdInsert;
+
+        public int TestCheck(int num1)
+        {
+            return (++num1);
+        }
+        public List<string> GetData()
+        {
+            List<string> result = new List<string>();
+            result.Add("Hello");
+            result.Add("Hi");
+            result.Add("Welcome");
+            return result;
+        }
+
         public EmployeeBL()
         {
-            conn = new SqlConnection(ConfigurationManager.ConnectionStrings["conTransport"].ConnectionString);
+           //conn = new SqlConnection(ConfigurationManager.ConnectionStrings["conTransport"].ConnectionString);
         }
         public bool CreateEmployee(Employee employee)
         {

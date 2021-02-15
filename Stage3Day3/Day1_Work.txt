@@ -1,0 +1,58 @@
+Check the software
+Checkig Functionality
+Manual and Automation
+Test Case to check software
+Business Logic Testing
+
+
+Verification - checking the product
+Validation - checking the process - QA
+
+Product checking - Software
+Unit Test - Programmer
+Integration Test - Programmer
+
+WhiteBox and BlackBox
+Funtional Test
+Regression Test
+System Test
+
+Installion and Uninstallation test
+Load Test
+Restoration Test
+Usability Test
+
+UAT
+Alpha Test
+Beta Test
+
+
+
+Unit Test
+Arrange
+Act
+Assert
+
+MSUnit Testing
+No Params
+Only void
+
+One assert for One Test Method
+
+
+nUnit Test
+Test Case
+TestFixture
+Test
+Teardown
+
+Today's Question
+real
+goal -> Cows- 2, Bull -0
+goat -> Cows- 1, Bull -0
+four -> Cows- 0, Bull -1
+talk -> Cows -0, Bull -2
+
+
+
+
