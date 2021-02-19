@@ -1,0 +1,8 @@
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stahe3Day7\SampleServiceSolution\SampleService\bin\Debug\SampleService.exe
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stahe3Day7\SampleServiceSolution\SampleService\bin\Debug\SampleService.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stahe3Day7\SampleServiceSolution\SampleService\bin\Debug\SampleService.exe.config
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stahe3Day7\SampleServiceSolution\SampleService\obj\Debug\SampleService.ProjectInstaller.resources
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stahe3Day7\SampleServiceSolution\SampleService\obj\Debug\SampleService.csproj.GenerateResource.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stahe3Day7\SampleServiceSolution\SampleService\obj\Debug\SampleService.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stahe3Day7\SampleServiceSolution\SampleService\obj\Debug\SampleService.exe
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stahe3Day7\SampleServiceSolution\SampleService\obj\Debug\SampleService.pdb

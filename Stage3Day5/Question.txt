@@ -1,0 +1,41 @@
+Create a windows form that will take the following data
+FirstName
+LastName
+DateOfBirth
+Gender
+City(Show 4 cities to choose from)
+Phone
+Email
+
+Validate the input that is given
+All fields are mandit
+Calculate the age based on the Date of birth
+
+
+Once the user hits the signup button
+User EF Database First approch to register the user
+Customer
+Name(First name + Last name)
+DateOfBirth
+Age
+Phone
+Email
+Gender
+Password - Password should be auto generated.
+It should be a 4 digit number
+
+Upon insert the user should be prompted to change the password
+
+Login Form -> To enter into the application
+(Remember the user Hint->Public static)
+MDI -> Menu
+Edit My Details
+PurchaseProducts
+  Products table
+     (id,name,price,quantity,description)
+View Order
+Cancel Order
+
+
+
+

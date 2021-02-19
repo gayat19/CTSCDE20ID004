@@ -1,0 +1,16 @@
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\bin\Debug\net5.0\SampleConsoleCoreProj.exe
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\bin\Debug\net5.0\SampleConsoleCoreProj.deps.json
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\bin\Debug\net5.0\SampleConsoleCoreProj.runtimeconfig.json
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\bin\Debug\net5.0\SampleConsoleCoreProj.runtimeconfig.dev.json
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\bin\Debug\net5.0\SampleConsoleCoreProj.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\bin\Debug\net5.0\ref\SampleConsoleCoreProj.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\bin\Debug\net5.0\SampleConsoleCoreProj.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\obj\Debug\net5.0\SampleConsoleCoreProj.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\obj\Debug\net5.0\SampleConsoleCoreProj.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\obj\Debug\net5.0\SampleConsoleCoreProj.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\obj\Debug\net5.0\SampleConsoleCoreProj.AssemblyInfo.cs
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\obj\Debug\net5.0\SampleConsoleCoreProj.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\obj\Debug\net5.0\SampleConsoleCoreProj.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\obj\Debug\net5.0\ref\SampleConsoleCoreProj.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\obj\Debug\net5.0\SampleConsoleCoreProj.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day6\SampleConsoleCoreProj\obj\Debug\net5.0\SampleConsoleCoreProj.genruntimeconfig.cache

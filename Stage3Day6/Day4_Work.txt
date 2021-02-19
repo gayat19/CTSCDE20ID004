@@ -1,0 +1,28 @@
+.Net Core
+  mobile,desktop,web,cloud, microservice
+lightweight
+cross-platform
+modular
+flxible
+CLI-support
+
+Roslyn ->compiler for C# and VB
+CoreCLR
+CoreFX
+
+dotnet --version
+dotnet new console -n SampleConsoleCoreProj
+dotnet run(to execute the application)
+
+DI
+IoC
+middleware
+ShortCircuit
+
+IoC
+Injection
+   Singeton
+   Transient
+   Scoped
+
+
