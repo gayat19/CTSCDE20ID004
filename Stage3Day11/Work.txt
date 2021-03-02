@@ -21,3 +21,27 @@ Interface Segregation
 
 Dependency Inversion
   Connect in abstract level. High level class should not be dependent directly on low level class
+
+
+Design Pattern
+    Desigs to solve problems in a standard way
+    23 design patterns
+        Creational Design pattern
+	   Factory
+	   Singleton
+	   Builder
+	   Prototype
+	Structural Design
+  	   Adapter
+	   Composite
+	   Proxy
+	   Decorator
+	Behavioral
+ 	   Command
+	   Observer
+	   State
+	   Iteraror
+
+Singleton
+Factory
+GoF -> Gang of Four

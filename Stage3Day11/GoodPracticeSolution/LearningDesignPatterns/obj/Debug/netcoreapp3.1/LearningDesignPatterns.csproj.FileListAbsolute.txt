@@ -1,0 +1,13 @@
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\bin\Debug\netcoreapp3.1\LearningDesignPatterns.exe
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\bin\Debug\netcoreapp3.1\LearningDesignPatterns.deps.json
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\bin\Debug\netcoreapp3.1\LearningDesignPatterns.runtimeconfig.json
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\bin\Debug\netcoreapp3.1\LearningDesignPatterns.runtimeconfig.dev.json
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\bin\Debug\netcoreapp3.1\LearningDesignPatterns.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\bin\Debug\netcoreapp3.1\LearningDesignPatterns.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\obj\Debug\netcoreapp3.1\LearningDesignPatterns.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\obj\Debug\netcoreapp3.1\LearningDesignPatterns.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\obj\Debug\netcoreapp3.1\LearningDesignPatterns.AssemblyInfo.cs
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\obj\Debug\netcoreapp3.1\LearningDesignPatterns.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\obj\Debug\netcoreapp3.1\LearningDesignPatterns.dll
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\obj\Debug\netcoreapp3.1\LearningDesignPatterns.pdb
+D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stage3Day11\GoodPracticeSolution\LearningDesignPatterns\obj\Debug\netcoreapp3.1\LearningDesignPatterns.genruntimeconfig.cache
