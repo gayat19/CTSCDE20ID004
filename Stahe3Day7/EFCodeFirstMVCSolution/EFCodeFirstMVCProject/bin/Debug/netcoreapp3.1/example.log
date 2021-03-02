@@ -1,0 +1,156 @@
+2021-02-23 12:43:23,959  INFO EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an info
+ 2021-02-23 12:43:24,071  WARN EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a warning
+ 2021-02-23 12:43:24,076 ERROR EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an error
+ 2021-02-23 12:43:24,081 FATAL EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a critical situation
+ 2021-02-23 17:49:53,102  INFO EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an info
+ 2021-02-23 17:49:53,179  WARN EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a warning
+ 2021-02-23 17:49:53,184 ERROR EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an error
+ 2021-02-23 17:49:53,190 FATAL EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a critical situation
+ 2021-02-23 17:50:33,458  INFO EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an info
+ 2021-02-23 17:50:33,541  WARN EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a warning
+ 2021-02-23 17:50:33,546 ERROR EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an error
+ 2021-02-23 17:50:33,552 FATAL EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a critical situation
+ 2021-02-23 17:50:47,840 ERROR Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'EFCodeFirstMVCProject.Controllers.EmployeeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-02-23 17:51:10,519 ERROR Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'EFCodeFirstMVCProject.Controllers.EmployeeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-02-23 17:51:22,980 ERROR Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'EFCodeFirstMVCProject.Controllers.EmployeeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-02-23 17:52:54,566  INFO EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an info
+ 2021-02-23 17:52:54,660  WARN EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a warning
+ 2021-02-23 17:52:54,666 ERROR EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an error
+ 2021-02-23 17:52:54,672 FATAL EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a critical situation
+ 2021-02-23 17:53:10,785  INFO EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an info
+ 2021-02-23 17:53:10,859  WARN EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a warning
+ 2021-02-23 17:53:10,866 ERROR EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an error
+ 2021-02-23 17:53:10,871 FATAL EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a critical situation
+ 2021-02-23 17:53:12,687 ERROR Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'EFCodeFirstMVCProject.Controllers.EmployeeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-02-23 17:53:24,154  INFO EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an info
+ 2021-02-23 17:53:24,234  WARN EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a warning
+ 2021-02-23 17:53:24,239 ERROR EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an error
+ 2021-02-23 17:53:24,245 FATAL EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a critical situation
+ 2021-02-23 17:53:27,881 ERROR Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'EFCodeFirstMVCProject.Controllers.EmployeeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-02-23 17:53:49,902  INFO EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an info
+ 2021-02-23 17:53:49,971  WARN EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a warning
+ 2021-02-23 17:53:49,976 ERROR EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an error
+ 2021-02-23 17:53:49,980 FATAL EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a critical situation
+ 2021-02-23 17:53:50,085  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-02-23 17:53:50,095  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-02-23 17:53:50,101  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stahe3Day7\EFCodeFirstMVCSolution\EFCodeFirstMVCProject
+ 2021-02-23 17:54:02,472  INFO EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an info
+ 2021-02-23 17:54:02,547  WARN EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a warning
+ 2021-02-23 17:54:02,553 ERROR EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an error
+ 2021-02-23 17:54:02,558 FATAL EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a critical situation
+ 2021-02-23 17:54:02,701  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-02-23 17:54:02,714  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-02-23 17:54:02,726  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stahe3Day7\EFCodeFirstMVCSolution\EFCodeFirstMVCProject
+ 2021-02-23 17:54:03,219 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.LogMessage [0] - MESSAGE: An unhandled exception has occurred while executing the request.
+ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'EFCodeFirstMVCProject.Controllers.EmployeeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-23 17:54:48,848  INFO EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an info
+ 2021-02-23 17:54:48,945  WARN EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a warning
+ 2021-02-23 17:54:48,952 ERROR EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is an error
+ 2021-02-23 17:54:48,958 FATAL EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: This is a critical situation
+ 2021-02-23 17:54:49,147  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2021-02-23 17:54:49,160  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Hosting environment: Development
+ 2021-02-23 17:54:49,172  INFO Microsoft.Hosting.Lifetime.LogMessage [0] - MESSAGE: Content root path: D:\Data\d drive\Corp\RPS\CTS\CDE20ID004\Stage3Day1\Stahe3Day7\EFCodeFirstMVCSolution\EFCodeFirstMVCProject
+ 2021-02-23 17:55:10,202  INFO EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: In the Employee Index action and the number of employees are 2
+ 2021-02-23 17:55:10,214  INFO EFCodeFirstMVCProject.Startup.LogMessage [0] - MESSAGE: The code is working well
+ 

@@ -1,0 +1,23 @@
+SOLID
+Single Responsibility
+Open Closed
+Liskov Substitution
+Interface Segregation
+Dependency Inversion
+
+Single Responsibility
+   A class should be responsible only for actions of that entity
+
+Open Closed
+  Open for extension
+  Clased for modification
+
+Liskov Substitution
+   Any Child class object should replace a parent's object without any modifications required
+
+Interface Segregation
+  A class should not be forced to implement an interface
+  Do not create fat interfaces(with too many methods)
+
+Dependency Inversion
+  Connect in abstract level. High level class should not be dependent directly on low level class
