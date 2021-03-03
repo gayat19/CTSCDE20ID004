@@ -27,8 +27,33 @@ namespace LearningDesignPatterns
             //director.Construct(builder);
             //MyCompany company = builder.GetCompany();
             //Console.WriteLine(company);
-            ISource source = new SourceAdapter();
-            source.CheckSource();
+            //ISource source = new SourceAdapter();
+            //source.CheckSource();
+            //OtherSenior root = new OtherSenior("SerniorMost1");
+            //root.Add(new Student("RamuStudent"));
+            //root.Add(new Student("SomuStudent"));
+            //root.Add(new Student("BimuStudent"));
+            //OtherSenior branch = new OtherSenior("SerniorJunior1");
+            //branch.Add(new Student("RamuJrStudent"));
+            //branch.Add(new Student("SomuJrStudent"));
+            //branch.Add(new Student("BimuJrStudent"));
+            //root.Add(branch);
+            //Student leaf = new Student("DirectRamu");
+            //root.Add(new Student("Check1"));
+            //root.Add(new Student("Check2"));
+            //root.Add(leaf);
+            //root.Display(1);
+            AggregateChild c = new AggregateChild();
+            c[0] = "Element 1";
+            c[1] = "Element 2";
+            c[2] = "Element 3";
+            MyIteraror i = c.GetIterator();
+            object fi = i.First();
+            while(fi != null)
+            {
+                Console.WriteLine(fi);
+                fi = i.Next();
+            }
             Console.ReadKey();
         }
     }

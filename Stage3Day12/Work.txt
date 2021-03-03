@@ -1,0 +1,10 @@
+Structural Design
+   Adapter
+   Composite
+   Proxy
+    Decorator
+Behavioral
+  Command
+  Observer
+  State
+  Iteraror
