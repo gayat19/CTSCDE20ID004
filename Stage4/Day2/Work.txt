@@ -1,0 +1,36 @@
+API 
+Methods are used to interact with an object
+Standard methods make the usage simple
+
+Web API
+Http - protocol
+RESTful Service
+  Architectural Approch
+    Define boundries for everything
+    Use of UI
+        Get,Post,Put,Delete 
+    Client-Server based
+    Stateless 
+      One request and another request have no connect 
+    RESTful resource caching
+    Layered System 
+    Code on Demand
+       usually it give back data as XML or JSON
+       If needed then executable code can be sent to client
+  Security
+    HTTPS
+    Block unknown IP
+    Validate request URL
+    DoS avoided with help of blocking large payloads
+    logging
+    Authentication 
+       API keys
+       Json Web Tokens - JWT
+       OAuth
+  API Testing 
+  Pre-Defined Error codes
+
+200 - success
+404 - client side - resource not found
+405 - client side - method not allowed
+  

@@ -1,0 +1,24 @@
+CRUD in Web API -> Database
+Code First Approch
+Http Status Codes
+
+Code First Approch
+
+Install EF Core,EF Core.SQlServer,EF Core SQLServer.Tools
+Model
+Context
+
+"ConnectionString":{
+	"conCM":"server=DESKTOP-1C1EU5R;database=dbCustomerManagement;Integrated Security=true"
+}
+
+Tools->PM Console
+
+
+
+Add-Migration MyFirstAPIProject.Models.CustomerManagementContext
+
+update-database
+
+
+Add-Migration MyFirstAPIProject.Models.CustomerManagementContextSeed
