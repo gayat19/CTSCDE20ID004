@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE20ID004\\Stage4\\Day2\\APISolution\\MyFirstAPIProject\\MyFirstAPIProject.csproj": {}
+    "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE20ID004\\Stage3Day1\\Stage4\\Day2\\APISolution\\MyFirstAPIProject\\MyFirstAPIProject.csproj": {}
   },
   "projects": {
-    "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE20ID004\\Stage4\\Day2\\APISolution\\MyFirstAPIProject\\MyFirstAPIProject.csproj": {
+    "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE20ID004\\Stage3Day1\\Stage4\\Day2\\APISolution\\MyFirstAPIProject\\MyFirstAPIProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE20ID004\\Stage4\\Day2\\APISolution\\MyFirstAPIProject\\MyFirstAPIProject.csproj",
+        "projectUniqueName": "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE20ID004\\Stage3Day1\\Stage4\\Day2\\APISolution\\MyFirstAPIProject\\MyFirstAPIProject.csproj",
         "projectName": "MyFirstAPIProject",
-        "projectPath": "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE20ID004\\Stage4\\Day2\\APISolution\\MyFirstAPIProject\\MyFirstAPIProject.csproj",
+        "projectPath": "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE20ID004\\Stage3Day1\\Stage4\\Day2\\APISolution\\MyFirstAPIProject\\MyFirstAPIProject.csproj",
         "packagesPath": "C:\\Users\\gayat\\.nuget\\packages\\",
-        "outputPath": "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE20ID004\\Stage4\\Day2\\APISolution\\MyFirstAPIProject\\obj\\",
+        "outputPath": "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE20ID004\\Stage3Day1\\Stage4\\Day2\\APISolution\\MyFirstAPIProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gayat\\AppData\\Roaming\\NuGet\\NuGet.Config",
