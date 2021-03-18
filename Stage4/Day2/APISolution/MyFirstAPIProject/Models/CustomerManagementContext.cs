@@ -14,6 +14,8 @@ namespace MyFirstAPIProject.Models
         }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Bill> Bills { get; set; }
+
+        public DbSet<User> Users { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Customer>().HasData(new Customer()
@@ -24,5 +26,6 @@ namespace MyFirstAPIProject.Models
                 Phone = "987654321"
             });
         }
+
     }
 }

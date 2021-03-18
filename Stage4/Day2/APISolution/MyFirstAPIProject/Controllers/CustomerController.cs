@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyFirstAPIProject.Models;
 using System;
@@ -18,6 +19,7 @@ namespace MyFirstAPIProject.Controllers
             _repository = repository;
         }
         [HttpGet]
+        [AllowAnonymous]
         public IActionResult Get()
         {
             try
@@ -32,6 +34,7 @@ namespace MyFirstAPIProject.Controllers
             
         }
         [HttpGet("{id}",Name ="Get")]
+        [Authorize]
         public IActionResult Get(int id)
         {
             try

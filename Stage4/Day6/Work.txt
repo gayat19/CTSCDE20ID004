@@ -1,0 +1,18 @@
+JWT - > Json Web Tokens
+1) User Table 
+    Protect our password
+        Password Encryption
+   	Password Salt
+    JWT Token Useage
+        Creation
+	Usage
+    Authentation and Authorization Middlewares
+DTO -> Data Transfer Object
+
+JWT and Stateless
+RFC 7519
+
+Self Contained
+  Credentials
+  Claims - User claims to be someone
+  Other info

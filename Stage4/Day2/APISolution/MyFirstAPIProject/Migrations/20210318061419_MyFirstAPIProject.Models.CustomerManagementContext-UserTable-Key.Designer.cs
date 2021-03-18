@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyFirstAPIProject.Models;
 
 namespace MyFirstAPIProject.Migrations
 {
     [DbContext(typeof(CustomerManagementContext))]
-    partial class CustomerManagementContextModelSnapshot : ModelSnapshot
+    [Migration("20210318061419_MyFirstAPIProject.Models.CustomerManagementContext-UserTable-Key")]
+    partial class MyFirstAPIProjectModelsCustomerManagementContextUserTableKey
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
