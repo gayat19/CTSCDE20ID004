@@ -1,0 +1,76 @@
+create a github account with ur personal details
+Dot not use CTS(ur company name) anywhere in the profile
+
+
+Create a local repo
+   Init a folder as git repo - 
+  git init
+
+To see the staged files and to check the git local repo status
+git status
+
+To stage a file
+git add <FileName>
+
+to remove it from tracking
+git rm --cached <FileName>
+
+To Commit the files
+git commit <FileName> -m "<your msg>"
+
+
+to View all the configurations in GIt
+git config --list
+
+
+To change your Git Credentials
+ControlPanel-> Credential Manager->Windows Credentials-> Edit git credentials
+
+For staging all teh files in a repo
+git add -A
+
+to commit all the files 
+git commit -a -m "<your commit message>"
+
+To link the local repo with the remote repo
+git remote add origin <remote repo url>
+
+To view the remote repo connection
+git remote -v
+
+
+To push the files from local repo to remote repo
+git push origin master
+
+To get the files from remote to local
+git pull origin master
+
+to resolve unrelated heads(when the local repo head is diff from remote repo head)
+git pull --allow-unrelated-histories origin master
+
+Conflicts
+
+Branch
+
+To create a new branch in teh local repo
+git branch <branchname>
+
+
+To list all teh branch
+git branch
+
+To go from one branch to another
+git checkout <branchname>
+
+To push to a diff branch
+git push origin <branchname>
+If teh branch is not present then it creates teh branch in teh remote repo
+
+To merge 2 branches
+git merge <branchname>
+
+To delete a branch
+git branch -d <branchname>
+
+
+

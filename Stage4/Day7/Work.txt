@@ -1,0 +1,11 @@
+Swagger
+  Testing and discovery tool
+
+Open API Spec
+Swagger -> Open source
+           Tool
+	   Built around the Open API
+Swashabuckle
+	   NuGet Package
+ 	   Swagger Tool documentation
+

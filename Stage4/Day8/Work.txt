@@ -1,0 +1,41 @@
+Plan Database
+   Movie
+    id,name,duration,remarks
+
+
+Create a Web API -> 
+   Access Database
+   Enable CORS
+   Enable Swagger
+
+Use Postman
+    Test API from Postman
+
+Create a MVC Application
+   Consume API From MVC
+
+Understand Git(Source Code Management System)
+Usage of GIT
+
+DevOps
+  SCM - Scouce Code Management -> Version Control
+   Git+ GitHub -> Git+Azure Repo
+  Local Version Control System - > Git
+  Remote Repo -> GItHub/Azure
+  CVC -> Centralized Version Control
+  DVC -> Distributed Version Control
+
+
+
+
+
+  CI - Continous Integration
+  CD - Con Develpment
+  CD - Cont. Deployment
+  
+
+
+
+
+
+
