@@ -2,7 +2,7 @@
 
 namespace MovieManagementAPI.Migrations
 {
-    public partial class MovieManagementAPIModelsShowContextInit : Migration
+    public partial class First : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

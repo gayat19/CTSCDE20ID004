@@ -1,0 +1,7 @@
+1) Understanding cloud services
+2) Create a Could database server
+   Make the application to connect to cloud database 
+
+3) Understanding the Microservice Arch
+   Creating a Microservice Application
+

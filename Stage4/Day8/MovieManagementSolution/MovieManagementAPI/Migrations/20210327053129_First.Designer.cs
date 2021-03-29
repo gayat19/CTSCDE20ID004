@@ -9,8 +9,8 @@ using MovieManagementAPI.Models;
 namespace MovieManagementAPI.Migrations
 {
     [DbContext(typeof(ShowContext))]
-    [Migration("20210322040738_MovieManagementAPI.Models.ShowContext-Init")]
-    partial class MovieManagementAPIModelsShowContextInit
+    [Migration("20210327053129_First")]
+    partial class First
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

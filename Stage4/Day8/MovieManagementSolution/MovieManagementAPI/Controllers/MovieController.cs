@@ -22,8 +22,17 @@ namespace MovieManagementAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Movie>>> Get()
         {
-            List<Movie> movies = await _context.Movies.ToListAsync();
-            return Ok(movies) ;
+            try
+            {
+                List<Movie> movies = await _context.Movies.ToListAsync();
+                return Ok(movies);
+            }
+            catch (Exception e)
+            {
+
+                return BadRequest("Exception..." + e.Message);
+            }
+            //return BadRequest("Exception..." );
         }
 
         [HttpPost]
