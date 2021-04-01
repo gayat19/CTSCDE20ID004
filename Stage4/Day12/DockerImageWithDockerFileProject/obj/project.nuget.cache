@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wl2pQ4rcSfdwVAeQX8phxJDfsWKOse83oXqDUrOay1e2tGQlHj6jG7ZcnpA+9YaUUHdElDOXLAwf+LTaNdD8mw==",
+  "success": true,
+  "projectFilePath": "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE20ID004\\Stage3Day1\\Stage4\\Day12\\DockerImageWithDockerFileProject\\DockerImageWithDockerFileProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gayat\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}

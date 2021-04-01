@@ -5,3 +5,98 @@
 3) Understanding the Microservice Arch
    Creating a Microservice Application
 
+Cloud
+   Public
+   Private
+   Hybrid
+   Community
+
+Cloud Service Models
+  Iaas - Virtualization,Servers,Storage Servers,Networking - you have to manage it
+  PaaS - Application,Data - Provided as tools,Runtime, Middlewares,o/s,  Pay-As-you-GoServer.Storage Pay-As-you-Go
+  SaaS - Applicatipm, Data - You manage /
+         Virtualization,Servers,Storage Servers,Networking - Managed for u  Pay-As-you-Go
+  FaaS - Computing Services - Pay-Per-Use
+
+AWS - Amazon 
+GCP - Google -Docs
+Azure - Microsoft
+IBM Cloud -  IBM
+
+Resource Group
+   Logical group 
+
+
+Azure Connection String
+
+Server=tcp:samplesg.database.windows.net,1433;Initial Catalog=sg;Persist Security Info=False;User ID=sg;Password=P@ssw0rd;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+Container -> Containarization - Docker
+OS+ DatabaseServer+ Web API+ Web Server-> box it in to a container
+deploy the container 
+
+VM vs. Docker
+
+vm
+App1
+Bins/Libs
+Guest OS
+Hypervisor
+Host o/s
+Hardware
+vm
+App2
+Bins/Libs
+Guest OS
+Hypervisor
+Host o/s
+Hardware
+
+Only these 3 are common
+Hypervisor
+Host o/s
+Hardware
+
+Docker
+App1
+Bins/Libs
+Docker Eng
+O/s
+Hardware
+
+App2
+Bins/Libs
+Docker Eng
+O/s
+Hardware
+
+
+Common
+Docker Eng
+O/s
+Hardware
+
+Docker can contain
+o/s
+software
+dependencies
+env. variables
+
+
+Creating the docker container is done by developer
+
+Docker - image -> Kubernetes to manage the images
+
+Show Management System
+Movies Module
+Screens Module
+Schedule Show Module
+BookTicket Module
+Customer Module
+
+
+
+
+
+
+

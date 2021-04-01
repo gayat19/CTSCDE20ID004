@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eFYvHqgOpZqPeVlTMH3eY8fvh7v/70S7Wy5nhqmHGcQW4EDYB1sNmduMMFnxRjt/otYuMjtnc/MX7a7r6V90Vw==",
+  "success": true,
+  "projectFilePath": "D:\\Data\\d drive\\Corp\\RPS\\CTS\\CDE20ID004\\Stage3Day1\\Stage4\\Day14\\CustomerManagementProject\\CustomerManagementProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gayat\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}

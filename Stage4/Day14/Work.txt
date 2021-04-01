@@ -1,0 +1,74 @@
+Create a Web API with local data
+containrize the same in azure
+   container repio
+   Generate a secrect key
+   Edit the build pipeline to containarize - docker
+   Edit the release pipeline to manage the conatainers - Kubernetes
+   View the managed container's output
+
+ResourceGroupName - aksg3grp
+Registryname - aksg3reg
+
+Username for Container Registry - aksg3reg
+Password for Container Registry - 0+SlOQIkWRah5rWffPgtBxhbsnFDCuQq
+
+
+AKS cluster name - aksg3cluster
+
+Server for Container registery - aksg3reg.azurecr.io
+
+az aks get-credentials --resource-group <resource group name> --name <AKS cluster name >
+az aks get-credentials --resource-group aksg3grp --name aksg3cluster
+
+
+kubectl create secret docker-registry dsconfigsn --docker-server=<docker server name> --docker-username=<docker access username> --docker-password=<docker access password> --docker-email=<subcription email>
+
+
+kubectl create secret docker-registry dsconfigsn --docker-server=aksg3reg.azurecr.io --docker-username=aksg3reg --docker-password=0+SlOQIkWRah5rWffPgtBxhbsnFDCuQq --docker-email=gayathri.mahadevan.1910@outlook.com
+
+
+
+
+
+
+Kubernetes
+  Open source orch for anaging teh containarized apps
+  deploy our conatainers here
+  Scalability for application
+     optimization of infra usage
+     graceful scaling(Up/Down)
+  Handles communication between containers   
+  Portable -> public/private/hybrid/muli-cloud
+  extensible
+     modular, pluggable, hookable
+  self healing
+     auto replacement
+     auto restart
+     auto replication
+     auto scaling
+Componenets of kubernetes
+     pods
+       basic buliding block
+       each pod contains
+	 volume
+	conatainarized app
+       marked by an IP
+scaling ->. it means adding pods not adding more containers
+    Node
+       A worker machine
+       A pod will always run in a node
+   Cluster
+       Collection of nodes 
+       Cluster is managed by a master node
+   Master
+	Manages the cluster
+        Decides which pod will run on which node
+	Spins up new pods if a pod is down/fails
+	Scales up or down dependingon the need
+
+AKS
+   All this orchestration is done and managed automatically by azure
+   Integrated with azure dev. tools
+   Managed by azure services
+   YAML file is all u need
+
